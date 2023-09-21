@@ -1,7 +1,7 @@
 html, body {
     box-sizing: border-box;
     height: 100%;
-    background-image: url(https://washoesar.org/wp-content/themes/preference-lite/images/patterns/pattern-bg.png);
+    background-image: url(img/background.png);
 }
 
 .top {
@@ -115,7 +115,6 @@ html, body {
 
 .main-body {
     display: flex;
-    justify-content: space-evenly;
     margin-top: 100px;
 }
 
@@ -131,6 +130,13 @@ html, body {
   .about > h1 {
     text-align: center;
     text-decoration: underline;
+  }
+
+  .about > ul {
+    text-align: left;
+    text-decoration: underline;
+    list-style: none;
+    font-size: 125%;
   }
 
   .news {
